@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <hr />
+
+    <h2 id="historia">História dos computadores</h2>
+    <p>
+        Os computadores transformaram todos os aspectos da vida
+        moderna, desde o trabalho e a educação até o entretenimento
+        e a pesquisa científica, evoluindo de máquinas gigantes
+        para dispositivos portáteis atuais. Cada era foi marcada por
+        mudanças tecnológicas que revolucionaram o modo como
+        as pessoas trabalham, se comunicam e interagem
+        com a tecnologia.
+    </p>
+    <small><a href="historia-computadores.html">Ler Mais</a></small>
+    <small><a href="#inicio">Voltar ao início</a></small>
+
+    <hr />
+    
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>Em HTML, clients geralmente se referem aos dispositivos ou navegadores que solicitam, recebem e interpretam páginas web do servidor. Esses "clientes" são a parte front-end da comunicação no modelo cliente-servidor, comum na web.</p>
+    <small><a href="clients.html">Ler Mais</a></small>
+    <small><a href="#inicio">Voltar ao início</a></small>
+
+    <hr />
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>
+        Em HTML e no contexto da web, servers (ou servidores) são os computadores ou sistemas que armazenam, processam e enviam os arquivos necessários para que os clientes (como navegadores) exibam páginas web. Eles desempenham um papel fundamental no modelo cliente-servidor da Internet
+    </p>
+    <small><a href="servers.html">Ler Mais</a></small>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    
+    <hr />
+    
+    <h2 id="estrutura-html">Como é uma estrutura básica de um HTML?</h2>
+    <p>
+        A estrutura básica de um arquivo HTML segue um padrão bem definido, que inclui elementos essenciais para criar uma página web.
+    </p>
+
+    <ul>
+        <li>
+            <h3>!DOCTYPE html</h3>
+            <p>
+                Declara que o documento é escrito em HTML5. É necessário para que os navegadores interpretem o arquivo corretamente.
+            </p>
+        </li>
+        <li>
+            <h3>html e /html</h3>
+            <p>
+                A tag html envolve todo o conteúdo da página.<br>
+                O atributo <strong>lang="pt-BR"</strong> informa ao navegador que o idioma principal do documento é português do Brasil
+            </p>
+        </li>
+        <li>
+            <h3>head e /head</h3>
+            <p>
+                Contém informações sobre a página (metadados). Essas informações não aparecem diretamente no conteúdo exibido ao usuário.<br>
+                <strong>meta charset="UTF-8"</strong> define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais (acentos, por exemplo)<br>
+                <strong>meta name="viewport" content="width=device-width, initial-scale=1.0"</strong> Torna a página responsiva, ajustando a visualização em dispositivos móveis<br>
+                <strong>title</strong> Define o título que aparece na aba do navegador
+            </p>
+        </li>
+        <li>
+            <h3>body e /body</h3>
+            <p>
+                Contém o conteúdo visível da página. Tudo o que está dentro dessas tags será exibido no navegador.<br>
+                <strong>h1</strong> para defirnir o Título principal da página;<br>
+                <strong>p</strong> para digitar parágrafos de texto.
+            </p>
+        </li>
+    </ul>
+    <h2>Estrutura definida</h2>
+    <img src="imagens/estrutura-html.png" width="600">
+    <br>
+    <small><a href="#inicio">Voltar ao início</a></small>
+    
+    <hr />
+
+    <h2 id="listas">Diferença entre listas ordenadas e não ordenadas</h2>
+    <p>
+        Em HTML, listas ordenadas e não ordenadas são formas de apresentar itens de forma estruturada. A diferença entre elas está no tipo de marcação e na maneira como os itens são exibidos no navegador
+    </p>
+
+    <h2>Lista ordenada</h2>
+    <p>
+        Uma lista onde os itens possuem uma ordem explícita, geralmente numerada (1, 2, 3...). Normalmente utilizada para sequências, instruções passo a passo ou qualquer situação onde a ordem dos itens seja importante.
+    </p>
+    <ol>
+        <li>Primeiro Item</li>
+        <li>Segundo Item</li>
+        <li>Terceiro Item</li>
+    </ol>
+    <img src="imagens/lista-ordenada.png" width="400">
+    
+    <h2>Lista não ordenada</h2>
+    <p>
+        Uma lista onde os itens não possuem ordem explícita, sendo apresentados com marcadores (geralmente círculos ou discos). Geralmente utilizada em grupos de itens onde a ordem não importa, como listas de características, tarefas ou opções.
+    </p>
+
+    <ul>
+        <li>Primeiro item</li>
+        <li>Segundo Item</li>
+        <li>Terceiro Item</li>
+    </ul>
+    <img src="imagens/lista-nao-ordenada.png" width="400">
+
+    <br>
+    <small><a href="#inicio">Voltar ao início</a></small>
+
+    <hr />
+
+    <h2 id="referencias">Links de referências</h2>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
+    </ul>
+
+</body>
+</html>
